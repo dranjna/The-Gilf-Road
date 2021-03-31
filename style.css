@@ -1,0 +1,180 @@
+.body{
+    background: #fff;
+    color: #444;
+    font-family: 'Google Sans';
+    letter-spacing: .5px;
+}
+
+
+.banner{
+    background-image: url(./images/hero-image.png);
+    background-size: cover;
+    height: 900px;
+}
+.homeloan-btn{
+    color: white;
+    border: 1px solid white;
+    /* outline: 0; */
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    font-family: inherit;
+    border-radius: 2px;
+}
+.top-header-color{
+   background-color:  rgba(230, 0, 42, 0.5)!important;
+    height: 71px;
+   width: 100%;
+}
+.nav-link{
+    color: white;
+   
+
+}
+.nav-link:hover{
+    color: white;
+}
+.list-property{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+}
+.social-icon{
+    font-size: 21px;
+}
+.search-property-bg{
+    background: rgba(0,0,0,0.66);
+    height: fit-content;
+    border-radius: 4px;
+    
+}
+.search-property{
+    color: white;
+     border: 0; 
+     text-decoration: none;
+    
+}
+.active, .search-property:hover{
+    background-color: #E4002B!important;
+    border-color: #E4002B #fff;
+    color: #fff;
+    border: 1px solid #e4002b;
+   
+}
+
+.navbar-list{
+    width: 100%;
+    overflow: auto;float: right;
+    margin-top: -59px;
+    background-color: transparent;
+}
+.navbar-list a{
+    border-top-right-radius: 4px;
+    float: left;
+    border: 0;
+    background: none;
+    padding-right: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    border-top-left-radius: 4px;
+}
+.navbar-list i{
+    color: white;
+}
+.navbar-search {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  .navbar-search a {
+    border-top-right-radius: 4px;
+    float: left;
+    background-color: #555;
+    padding-right: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-right: 5px;margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    border-top-left-radius: 4px;
+  }
+  
+  .navbar-search a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  .select{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    height: 56px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.77);
+    border: 0;
+    outline: 0;
+}
+  
+  
+  
+
+ 
+  .inlineCheckbox{
+      border: 1px solid #ddd;
+      color: #ddd;
+      border-radius: 1px;
+  }
+  #selectionbox {
+    display: block;
+  }
+  [contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text)
+}
+.vertical{
+    position: absolute;
+    margin-top: 8px;
+    height: 39px;
+    width: 1px;
+   background:  rgba(0,0,0,0.11);;
+    margin-left: 7px;
+   content: "";
+}
+
+.search-icon{
+    position: absolute; 
+    bottom: 30px;
+     padding-left: 9px; 
+     display:block
+}
+@media screen and (max-width: 480px) {
+    .navbar-search a {
+      float: none;
+      display: inline-block;
+    }
+    .search1{
+       
+        width: 421px;
+        margin-left: 10px;
+    }
+    .select{
+        width: 100%;
+    }
+    .search-icon{
+        position: absolute; 
+        bottom: 17px;
+        padding-left: 9px; 
+        display:block;
+    }
+  }
