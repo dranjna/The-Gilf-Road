@@ -18,7 +18,7 @@
     padding-top: 3px;
     padding-bottom: 3px;
     font-size: 14px;
-    font-family: inherit;
+    font-family: 'Google Sans';
     border-radius: 2px;
 }
 .top-header-color{
@@ -56,7 +56,7 @@
     
 }
 .active, .search-property:hover{
-    background-color: #E4002B!important;
+     background-color: #E4002B!important;
     border-color: #E4002B #fff;
     color: #fff;
     border: 1px solid #e4002b;
@@ -65,7 +65,7 @@
 
 .navbar-list{
     width: 100%;
-    overflow: auto;float: right;
+    overflow: auto; float: right;
     margin-top: -59px;
     background-color: transparent;
 }
@@ -112,12 +112,10 @@
     background-color: #000;
   }
   
-  .active {
-    background-color: #4CAF50;
-  }
+ 
   .select{
     margin: 0;
-    font-family: inherit;
+    font-family: 'Google Sans';
     font-size: inherit;
     line-height: inherit;
     height: 56px;
@@ -168,13 +166,54 @@
         width: 421px;
         margin-left: 10px;
     }
-    .select{
-        width: 100%;
-    }
+   
     .search-icon{
         position: absolute; 
         bottom: 17px;
         padding-left: 9px; 
         display:block;
     }
+    .banner{
+        background-image: url(./images/hero-image.png);
+        background-size: cover;
+        height: 900px;
+    }
   }
+  .active, .carousel-inner{
+      background-color: #eee;
+  }
+ 
+ .card-detail h5{
+    color: rgba(0,0,0,0.44);
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+}
+.card-detail h2{
+    color: #0E0E0E;
+    font-size: 16px;
+    float: left;
+    text-align: initial;
+    font-weight: 600;
+    font-family: inherit;
+}
+.card-detail p{
+    color: rgba(14,14,14,0.55);
+    float: left;
+    text-align: initial;
+    font-size: 13px;
+}
+.card-detail h6{
+    color: #0E0E0E;
+    float: left;
+    text-align: initial;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Boutique{
+    background-image: url(./images/gulf-road-butique.png);
+    background-size: cover;
+    height: 75vh;
+
+   
+}
