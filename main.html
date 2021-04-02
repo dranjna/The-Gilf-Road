@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
+
+
+
 </head>
 
 <body>
@@ -1216,110 +1217,183 @@
     <!----------------end of feature sales----------------------------->
     <!-------------------------------The Gulf Road Boutique---------------->
     <div class="container">
-        <div class="row">
-            <img src="./images/gulf-road-butique.png" alt="Snow" style="width:100%;">
-            <div class="centered">Centered</div>
-            <!--div class="col-md-6 ">
-                <div class="bg-white rounded"
-                    style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
-                    <div class="row">
 
-                        <h2>Introduction</h2>
+        <div class="Boutique">
+            <div class="row">
+
+                <div class=" col-md-5 bg-white rounded h-75"
+                    style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                    <div class="row p-4">
+
+                        <h4>Introduction</h4>
+                        <h2 style="color: rgba(0,0,0,0.87); font-size: 36px; font-weight: bold;">The Gulf Road
+                            <i><span
+                                    style="font-size: 36px; font-weight: normal; color: rgba(0,0,0,0.87);">Boutique</span></i>
+                        </h2>
+                        <p style="color: rgba(0,0,0,0.66); font-size: 16px;">
+                            A selection of finest Hotel Apartments, Beach side properties and Prime location properties.
+                        </p>
+
+                        <button class="btn my-2"
+                            style="border: 1px solid #E4002B; color:#E4002B; font-size: 14px; font-weight: 500;">
+                            SHOW MORE <i class="fa fa-angle-right ml-3"></i>
+                        </button>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!-------------------end of boutique------------------------------>
+
+        <!---------------------------slider----------------->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <h4>1</h4>
+                        </div>
+                        <div class="item">
+                            <h4>2</h4>
+                        </div>
+                        <div class="item">
+                            <h4>3</h4>
+                        </div>
+                        <div class="item">
+                            <h4>4</h4>
+                        </div>
+                        <div class="item">
+                            <h4>5</h4>
+                        </div>
+                        <div class="item">
+                            <h4>6</h4>
+                        </div>
+                        <div class="item">
+                            <h4>7</h4>
+                        </div>
+                        <div class="item">
+                            <h4>8</h4>
+                        </div>
+                        <div class="item">
+                            <h4>9</h4>
+                        </div>
+                        <div class="item">
+                            <h4>10</h4>
+                        </div>
+                        <div class="item">
+                            <h4>11</h4>
+                        </div>
+                        <div class="item">
+                            <h4>12</h4>
+                        </div>
+
+                    </div>
+                    
 
             </div>
-            <div class="col-md-6">
-                <div class="Boutique">kdjsldksl</div>
-            </div-->
         </div>
-    </div>
-    
+
+</div>
 
 
 
 
 
+        <!-- The slideshow -->
 
 
-    <!-- The slideshow -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+
+        <script>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            $(document).ready(function () {
 
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+                $('.owl-carousel').owlCarousel({
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.2/owl.carousel.min.js"></script>
-    <!-- javascript owl carousel-->
-    <script src="../assets/vendors/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+                    items: 3,
+                    margin: 30,
+                    loop: true,
+                    nav: true,
+                    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+                    dots: false,
 
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: true
+                        },
+                        600: {
+                            items: 2,
+                            nav: false
+                        },
+                        1000: {
+                            items: 3,
+                            nav: true,
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            window.addEventListener('scroll', function () {
-                if (window.scrollY > 50) {
-                    document.getElementById('navbar_top').classList.add('fixed-top');
-                    // add padding top to show content behind navbar
-                    navbar_height = document.querySelector('.navbar').offsetHeight;
-                    document.body.style.paddingTop = navbar_height + 'px';
-                } else {
-                    document.getElementById('navbar_top').classList.remove('fixed-top');
-                    // remove padding top from body
-                    document.body.style.paddingTop = '0';
-                }
+                        }
+                    }
+                });
+
             });
-        });
-        document.addEventListener("DOMContentLoaded", function () {
-            window.addEventListener('scroll', function () {
-                if (window.scrollY > 50) {
-                    document.getElementById('background').classList.add('fixed-top');
-                    // add padding top to show content behind navbar
-                    navbar_height = document.querySelector('.navbar').offsetHeight;
-                    document.body.style.paddingTop = navbar_height + 'px';
-                } else {
-                    document.getElementById('background').classList.remove('fixed-top');
-                    // remove padding top from body
-                    document.body.style.paddingTop = '0';
-                }
-            });
-        });
-        /////////////////////////end of fixed navbar///////////////////////////
-        //to activate the button////////////////////////////////////////////////////
-        // Add active class to the current button (highlight it)
-        var header = document.getElementById("myDIV");
-        var btns = header.getElementsByClassName("search-property");
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function () {
-                var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
-                this.className += " active";
-            });
-        }
 
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 5
-                }
+
+            document.addEventListener("DOMContentLoaded", function () {
+                window.addEventListener('scroll', function () {
+                    if (window.scrollY > 50) {
+                        document.getElementById('navbar_top').classList.add('fixed-top');
+                        // add padding top to show content behind navbar
+                        navbar_height = document.querySelector('.navbar').offsetHeight;
+                        document.body.style.paddingTop = navbar_height + 'px';
+                    } else {
+                        document.getElementById('navbar_top').classList.remove('fixed-top');
+                        // remove padding top from body
+                        document.body.style.paddingTop = '0';
+                    }
+                });
+            });
+            document.addEventListener("DOMContentLoaded", function () {
+                window.addEventListener('scroll', function () {
+                    if (window.scrollY > 50) {
+                        document.getElementById('background').classList.add('fixed-top');
+                        // add padding top to show content behind navbar
+                        navbar_height = document.querySelector('.navbar').offsetHeight;
+                        document.body.style.paddingTop = navbar_height + 'px';
+                    } else {
+                        document.getElementById('background').classList.remove('fixed-top');
+                        // remove padding top from body
+                        document.body.style.paddingTop = '0';
+                    }
+                });
+            });
+            /////////////////////////end of fixed navbar///////////////////////////
+            //to activate the button////////////////////////////////////////////////////
+            // Add active class to the current button (highlight it)
+            var header = document.getElementById("myDIV");
+            var btns = header.getElementByClassName("search-property");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
             }
-        })
 
-    </script>
+            // Instantiate the Bootstrap carousel
+            $(document).ready(function () {
+                $('.owl-carousel').owlCarousel({
+
+                });
+
+            })
+        </script>
+
 </body>
 
 
