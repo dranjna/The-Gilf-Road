@@ -128,8 +128,8 @@
                 </div>
 
                 <div class="col-md-12 pt-3">
-                    <div class="navbar-search">
-                        <a class="active text-decoration-none search-property pr-3 pl-3 pt-2 pb-2" href="#"><img
+                    <div class="navbar-search" id="myDIV">
+                        <a class=" text-decoration-none search-property pr-3 pl-3 pt-2 pb-2 active" href="#"><img
                                 src="./images/home.png" class="pr-3"><span style="font-size: 14px;">Buy</span< /a>
                                 <a href="#" class=" text-decoration-none search-property  pr-3 pl-3 pt-2 pb-2"> <img
                                         src="./images/buildings.png" class="pr-3"><span
@@ -356,444 +356,269 @@
 
     <!---------------------------------end of selection boxes form--------------->
     <!----------end of buttons---------->
-    <!----------------------cursor------------------------>
-    <div class=" container-fluid bg-light" style="background-color:#eee;">
-        <div class="container text-center ">
+    <!----------------------carousel------------------------>
+    <div class=" container-fluid" style="background-color:#eee;">
+        <div class="container  py-5 text-center ">
             <div class="row  my-auto py-5">
-
-                <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
-                    <div>
-                        <a class="carousel-control-prev text-dark" href="#myCarousel" role="button" data-slide="prev">
-                            <span class="fa fa-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
+                <div class="owl-carousel owl-theme">
+                    <div class="item" style="background: none; border: 0;">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 205px; border-top-right-radius: 4px;
+                                border-top-left-radius: 4px;">
+                            <div class="card-body card-detail pl-md-2 pl-4 pr-4 pr-md-2">
+                                <div class="row ml-md-2">
+                                    <h5>Studio Apartment</h5>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <h2 style="font-size: 20px; font-weight:bold;">Elegant Furnished Studio</h2>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <p style="font-size: 14px;">Hayat Townhouses, Town Square</p>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <h2>160,000 AED / yr</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3  pl-md-4 pl-0 d-flex" style="height: 12px;">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1"></div>
+                                    <div class="col-md-2 col-sm-8 col-2" style="color: #0E0E0E; font-size: 13px;"
+                                        class="">413</div>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <div>
+                                        <img src="./images/red-bed.png" class="mr-md-1 pt-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-2 mr-2">3
+                                    </div>
+                                    <div>
+                                        <img src="./images/red-tub.png" class="ml-md-2 mr-md-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-1 mr-2">2
+                                    </div>
+                                    <div>
+                                        <img src="./images/red-car.png" class="ml-md-2 mr-md-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-1 mr-2">1
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item py-5 active bg-light border-0">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6 col-12">
-                                    <div class="card border-0 rounded">
-                                        <img src="https://dummyimage.com/370x205/ccc/fff">
-                                        <div class="card-body card-detail pl-md-2 pr-md-2">
-                                            <div class="row ml-md-2">
-                                                <h5>Studio Apartment</h5>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>Elegant Furnished Studio</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <p>Hayat Townhouses, Town Square, Riyadh</p>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>160,000 AED / yr</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png"></div>
-                                                <div style="color: #0E0E0E; font-size: 13px;" class="p-1">413</div>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/red-bed.png" class="mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">3</div>
-                                                <div>
-                                                    <img src="./images/red-tub.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">2</div>
-                                                <div>
-                                                    <img src="./images/red-car.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">1</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="item bg-white">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 205px; border-top-right-radius: 4px;
+                                border-top-left-radius: 4px;">
+                            <div class="card-body card-detail pl-md-2 pl-4 pr-4 pr-md-2">
+                                <div class="row ml-md-2">
+                                    <h5>Studio Apartment</h5>
                                 </div>
-                                <div class="col-md-4 col-sm-6 col-12">
-                                    <div class="card border-0 rounded">
-                                        <img src="https://dummyimage.com/370x205/ccc/fff">
-                                        <div class="card-body card-detail pl-md-2 pr-md-2">
-                                            <div class="row ml-md-2">
-                                                <h5>Studio Apartment</h5>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>Elegant Furnished Studio</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <p>Hayat Townhouses, Town Square, Riyadh</p>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>160,000 AED / yr</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png"></div>
-                                                <div style="color: #0E0E0E; font-size: 13px;" class="p-1">413</div>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/red-bed.png" class="mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">3</div>
-                                                <div>
-                                                    <img src="./images/red-tub.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">2</div>
-                                                <div>
-                                                    <img src="./images/red-car.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">1</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="row ml-md-2">
+                                    <h2 style="font-size: 20px; font-weight:bold;">Elegant Furnished Studio</h2>
                                 </div>
-                                <div class="col-md-4 col-sm-6 col-12">
-                                    <div class="card border-0 rounded">
-                                        <img src="https://dummyimage.com/370x205/ccc/fff">
-                                        <div class="card-body card-detail pl-md-2 pr-md-2">
-                                            <div class="row ml-md-2">
-                                                <h5>Studio Apartment</h5>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>Elegant Furnished Studio</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <p>Hayat Townhouses, Town Square, Riyadh</p>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>160,000 AED / yr</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png"></div>
-                                                <div style="color: #0E0E0E; font-size: 13px;" class="p-1">413</div>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/red-bed.png" class="mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">3</div>
-                                                <div>
-                                                    <img src="./images/red-tub.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">2</div>
-                                                <div>
-                                                    <img src="./images/red-car.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">1</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="row ml-md-2">
+                                    <p style="font-size: 14px;">Hayat Townhouses, Town Square</p>
                                 </div>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item py-5 bg-light border-0">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6 col-12">
-                                    <div class="card border-0 rounded">
-                                        <img src="https://dummyimage.com/370x205/ccc/fff">
-                                        <div class="card-body card-detail pl-md-2 pr-md-2">
-                                            <div class="row ml-md-2">
-                                                <h5>Studio Apartment</h5>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>Elegant Furnished Studio</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <p>Hayat Townhouses, Town Square, Riyadh</p>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>160,000 AED / yr</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png"></div>
-                                                <div style="color: #0E0E0E; font-size: 13px;" class="p-1">413</div>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/red-bed.png" class="mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">3</div>
-                                                <div>
-                                                    <img src="./images/red-tub.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">2</div>
-                                                <div>
-                                                    <img src="./images/red-car.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">1</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="row ml-md-2">
+                                    <h2>160,000 AED / yr</h2>
                                 </div>
-                                <div class="col-md-4 col-sm-6 col-12">
-                                    <div class="card border-0 rounded">
-                                        <img src="https://dummyimage.com/370x205/ccc/fff">
-                                        <div class="card-body card-detail pl-md-2 pr-md-2">
-                                            <div class="row ml-md-2">
-                                                <h5>Studio Apartment</h5>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>Elegant Furnished Studio</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <p>Hayat Townhouses, Town Square, Riyadh</p>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>160,000 AED / yr</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png"></div>
-                                                <div style="color: #0E0E0E; font-size: 13px;" class="p-1">413</div>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/red-bed.png" class="mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">3</div>
-                                                <div>
-                                                    <img src="./images/red-tub.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">2</div>
-                                                <div>
-                                                    <img src="./images/red-car.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">1</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="row ">
+                                    <div class="col-3  pl-md-4 pl-0 d-flex" style="height: 12px;">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1"></div>
+                                    <div class="col-md-2 col-sm-8 col-2" style="color: #0E0E0E; font-size: 13px;"
+                                        class="">413</div>
                                 </div>
-                                <div class="col-md-4 col-sm-6 col-12">
-                                    <div class="card border-0 rounded">
-                                        <img src="https://dummyimage.com/370x205/ccc/fff">
-                                        <div class="card-body card-detail pl-md-2 pr-md-2">
-                                            <div class="row ml-md-2">
-                                                <h5>Studio Apartment</h5>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>Elegant Furnished Studio</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <p>Hayat Townhouses, Town Square, Riyadh</p>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>160,000 AED / yr</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png"></div>
-                                                <div style="color: #0E0E0E; font-size: 13px;" class="p-1">413</div>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/red-bed.png" class="mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">3</div>
-                                                <div>
-                                                    <img src="./images/red-tub.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">2</div>
-                                                <div>
-                                                    <img src="./images/red-car.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">1</div>
-                                            </div>
-                                        </div>
+                                <div class="row ml-md-2">
+                                    <div>
+                                        <img src="./images/red-bed.png" class="mr-1 pt-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-2 mr-2">3
+                                    </div>
+                                    <div>
+                                        <img src="./images/red-tub.png" class="ml-md-2 mr-md-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-1 mr-2">2
+                                    </div>
+                                    <div>
+                                        <img src="./images/red-car.png" class="ml-md-2 mr-md-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-1 mr-2">1
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item py-5 bg-light border-0">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6 col-12">
-                                    <div class="card border-0 rounded">
-                                        <img src="https://dummyimage.com/370x205/ccc/fff">
-                                        <div class="card-body card-detail pl-md-2 pr-md-2">
-                                            <div class="row ml-md-2">
-                                                <h5>Studio Apartment</h5>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>Elegant Furnished Studio</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <p>Hayat Townhouses, Town Square, Riyadh</p>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>160,000 AED / yr</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png"></div>
-                                                <div style="color: #0E0E0E; font-size: 13px;" class="p-1">413</div>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/red-bed.png" class="mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">3</div>
-                                                <div>
-                                                    <img src="./images/red-tub.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">2</div>
-                                                <div>
-                                                    <img src="./images/red-car.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">1</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-12">
-                                    <div class="card border-0 rounded">
-                                        <img src="https://dummyimage.com/370x205/ccc/fff">
-                                        <div class="card-body card-detail pl-md-2 pr-md-2">
-                                            <div class="row ml-md-2">
-                                                <h5>Studio Apartment</h5>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>Elegant Furnished Studio</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <p>Hayat Townhouses, Town Square, Riyadh</p>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>160,000 AED / yr</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png"></div>
-                                                <div style="color: #0E0E0E; font-size: 13px;" class="p-1">413</div>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/red-bed.png" class="mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">3</div>
-                                                <div>
-                                                    <img src="./images/red-tub.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">2</div>
-                                                <div>
-                                                    <img src="./images/red-car.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">1</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-12">
-                                    <div class="card border-0 rounded">
-                                        <img src="https://dummyimage.com/370x205/ccc/fff">
-                                        <div class="card-body card-detail pl-md-2 pr-md-2">
-                                            <div class="row ml-md-2">
-                                                <h5>Studio Apartment</h5>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>Elegant Furnished Studio</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <p>Hayat Townhouses, Town Square, Riyadh</p>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <h2>160,000 AED / yr</h2>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png">
-                                                    <img src="./images/ic_rating_filled.png"></div>
-                                                <div style="color: #0E0E0E; font-size: 13px;" class="p-1">413</div>
-                                            </div>
-                                            <div class="row ml-md-2">
-                                                <div>
-                                                    <img src="./images/red-bed.png" class="mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">3</div>
-                                                <div>
-                                                    <img src="./images/red-tub.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">2</div>
-                                                <div>
-                                                    <img src="./images/red-car.png" class="ml-md-2 mr-md-1">
-                                                </div>
-                                                <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
-                                                    class="p-1 mr-md-2">1</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
-                    <a class="carousel-control-next text-dark" href="#myCarousel" role="button" data-slide="next">
-                        <span class="fa fa-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="item bg-white">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 205px; border-top-right-radius: 4px;
+                                border-top-left-radius: 4px;">
+                            <div class="card-body card-detail pl-md-2 pl-4 pr-4 pr-md-2">
+                                <div class="row ml-md-2">
+                                    <h5>Studio Apartment</h5>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <h2 style="font-size: 20px; font-weight:bold;">Elegant Furnished Studio</h2>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <p style="font-size: 14px;">Hayat Townhouses, Town Square</p>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <h2>160,000 AED / yr</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3  pl-md-4 pl-0 d-flex" style="height: 12px;">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1"></div>
+                                    <div class="col-md-2 col-sm-8 col-2" style="color: #0E0E0E; font-size: 13px;"
+                                        class="">413</div>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <div>
+                                        <img src="./images/red-bed.png" class="mr-1 pt-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-2 mr-2">3
+                                    </div>
+                                    <div>
+                                        <img src="./images/red-tub.png" class="ml-md-2 mr-md-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-1 mr-2">2
+                                    </div>
+                                    <div>
+                                        <img src="./images/red-car.png" class="ml-md-2 mr-md-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-1 mr-2">1
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item bg-white">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 205px; border-top-right-radius: 4px;
+                                border-top-left-radius: 4px;">
+                            <div class="card-body card-detail pl-md-2 pl-4 pr-4 pr-md-2">
+                                <div class="row ml-md-2">
+                                    <h5>Studio Apartment</h5>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <h2 style="font-size: 20px; font-weight:bold;">Elegant Furnished Studio</h2>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <p style="font-size: 14px;">Hayat Townhouses, Town Square</p>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <h2>160,000 AED / yr</h2>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-3 pl-md-4 pl-0 d-flex" style="height: 12px;">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1"></div>
+                                    <div class="col-md-2 col-sm-8 col-2" style="color: #0E0E0E; font-size: 13px;"
+                                        class="">413</div>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <div>
+                                        <img src="./images/red-bed.png" class="mr-1 pt-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-2 mr-2">3
+                                    </div>
+                                    <div>
+                                        <img src="./images/red-tub.png" class="ml-md-2 mr-md-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-1 mr-2">2
+                                    </div>
+                                    <div>
+                                        <img src="./images/red-car.png" class="ml-md-2 mr-md-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-1 mr-2">1
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item bg-white">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 205px; border-top-right-radius: 4px;
+                        border-top-left-radius: 4px;">
+                            <div class="card-body card-detail pl-md-2 pl-4 pr-4 pr-md-2">
+                                <div class="row ml-md-2">
+                                    <h5>Studio Apartment</h5>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <h2 style="font-size: 20px; font-weight:bold;">Elegant Furnished Studio</h2>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <p style="font-size: 14px;">Hayat Townhouses, Town Square</p>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <h2>160,000 AED / yr</h2>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-3 pl-md-4 pl-0 d-flex" style="height: 12px;">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1">
+                                        <img src="./images/ic_rating_filled.png" class="pr-1"></div>
+                                    <div class="col-md-2 col-sm-8 col-2" style="color: #0E0E0E; font-size: 13px;"
+                                        class="">413</div>
+                                </div>
+                                <div class="row ml-md-2">
+                                    <div>
+                                        <img src="./images/red-bed.png" class="mr-1 pt-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;"
+                                        class="pt-1 pl-2 mr-md-2">3</div>
+                                    <div>
+                                        <img src="./images/red-tub.png" class="ml-2 mr-md-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-1 mr-2">2
+                                    </div>
+                                    <div>
+                                        <img src="./images/red-car.png" class="ml-2 mr-md-1"
+                                            style="height: 25px; width: 25px;">
+                                    </div>
+                                    <div style="opacity: 0.7; color:#E4002B; font-size: 14px;" class="pt-1 pl-1 mr-2">1
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
             <!-------------------------end of carousel----------------->
             <!------------------show more button------------>
@@ -827,20 +652,21 @@
     <!-------------------Featured list------------------------>
     <div class="container my-5 py-5 bg-white">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-12">
                 <h3 style="color: #0E0E0E; font-size: 32px;font-weight: bold;font-family:inherit;
           letter-spacing: .5px;">Featured list</h3>
             </div>
-            <div class="col-md-12 pl-3">
+            <div class="col-12 pl-3">
                 <h2 style="color: rgba(14,14,14,0.55);font-size: 16px;">Popular rated properties</h2>
             </div>
-            <div class="col-md-12 pt-3">
+            <div class="col-12 pt-3">
                 <h3 style="color: #0E0E0E; font-size: 20px;font-weight: bold;font-family:inherit;
           letter-spacing: .5px;">Rent</h3>
                 <Span
                     style="width: 33px; height: 3px; border: 1px solid #E4002B; background: #E4002B;display: block"></Span>
             </div>
         </div>
+
         <div class="container my-4">
             <div class="row">
                 <div class="col-md-3">
@@ -1242,64 +1068,1480 @@
                 </div>
             </div>
         </div>
-        <!-------------------end of boutique------------------------------>
+    </div>
+    <!-------------------end of boutique------------------------------>
 
-        <!---------------------------slider----------------->
-        <div class="container my-5">
-            <div class="row">
-                <div class="col">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <h4>1</h4>
+    <!---------------------------top buddiess----------------------------->
+    <div class="container py-5">
+        <div class="row pt-4">
+            <div class="col-md-12">
+                <h3 style="color: #0E0E0E; font-size: 32px;font-weight: bold;font-family:inherit;
+          letter-spacing: .5px;">Top Rated Buddies</h3>
+            </div>
+            <div class="col-md-12 pl-3">
+                <h2 style="color: rgba(14,14,14,0.55);font-size: 16px;">Buddies that our users like the most</h2>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="owl-carousel owl-theme">
+
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row mx-3">
+                                <div class="col-4">
+                                    <img src="https://dummyimage.com/104x104/ccc/fff" class="circle"
+                                        style="height: 90px; width: 90px; margin-top: 14px; border-radius: 50%;">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+                                    <div class="row pl-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1"></div>
+                                        <div class="col-9" style="color: #0E0E0E; font-size: 13px;" class="">413
+                                        </div>
+                                    </div>
+                                    <div class="row pl-md-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/Connections_icon.png" class="pr-1"
+                                                style="height: 15px; width:25px;">
+                                        </div>
+                                        <div class="col-9 pl-0" style="color: #0E0E0E; font-size: 13px;" class="">
+                                            <h6><b>321</b> Connections</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-md-2 pr-md-2">
+                                <div class="row ml-2">
+                                    <h5>Languages Known</h5>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> French</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+                                <div class="row ml-2">
+                                    <div class="col-6 pl-0">
+                                        <h6 style="    color: rgba(0,0,0,0.55); font-size: 12px; font-weight:400;"
+                                            class="pl-0">Consultation Charges</h6>
+                                        <h4 style="color: rgba(0,0,0,0.90); font-size: 26px;" class="mt-0 pl-0">AED 424
+                                            <small style="color: rgba(0,0,0,0.55); font-size:16px">/hr</small></h4>
+                                    </div>
+                                    <div class="col-6 d-block w-auto">
+                                        <div class="row py-4 my-2 pl-4">
+                                            <div class="ml-3">
+                                                <img src="./images/call_buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/mail-buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/whatsapp-buddy.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4>2</h4>
+                    </div>
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row mx-3">
+                                <div class="col-4">
+                                    <img src="https://dummyimage.com/104x104/ccc/fff" class="circle"
+                                        style="height: 90px; width: 90px; margin-top: 14px; border-radius: 50%;">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+                                    <div class="row pl-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1"></div>
+                                        <div class="col-9" style="color: #0E0E0E; font-size: 13px;" class="">413
+                                        </div>
+                                    </div>
+                                    <div class="row pl-md-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/Connections_icon.png" class="pr-1"
+                                                style="height: 15px; width:25px;">
+                                        </div>
+                                        <div class="col-9 pl-0" style="color: #0E0E0E; font-size: 13px;" class="">
+                                            <h6><b>321</b> Connections</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-md-2 pr-md-2">
+                                <div class="row ml-2">
+                                    <h5>Languages Known</h5>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> French</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+                                <div class="row ml-2">
+                                    <div class="col-6 pl-0">
+                                        <h6 style="    color: rgba(0,0,0,0.55); font-size: 12px; font-weight:400;"
+                                            class="pl-0">Consultation Charges</h6>
+                                        <h4 style="color: rgba(0,0,0,0.90); font-size: 26px;" class="mt-0 pl-0">AED 424
+                                            <small style="color: rgba(0,0,0,0.55); font-size:16px">/hr</small></h4>
+                                    </div>
+                                    <div class="col-6 d-block w-auto">
+                                        <div class="row py-4 my-2 pl-4">
+                                            <div class="ml-3">
+                                                <img src="./images/call_buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/mail-buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/whatsapp-buddy.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4>3</h4>
+                    </div>
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row mx-3">
+                                <div class="col-4">
+                                    <img src="https://dummyimage.com/104x104/ccc/fff" class="circle"
+                                        style="height: 90px; width: 90px; margin-top: 14px; border-radius: 50%;">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+                                    <div class="row pl-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1"></div>
+                                        <div class="col-9" style="color: #0E0E0E; font-size: 13px;" class="">413
+                                        </div>
+                                    </div>
+                                    <div class="row pl-md-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/Connections_icon.png" class="pr-1"
+                                                style="height: 15px; width:25px;">
+                                        </div>
+                                        <div class="col-9 pl-0" style="color: #0E0E0E; font-size: 13px;" class="">
+                                            <h6><b>321</b> Connections</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-md-2 pr-md-2">
+                                <div class="row ml-2">
+                                    <h5>Languages Known</h5>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> French</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+                                <div class="row ml-2">
+                                    <div class="col-6 pl-0">
+                                        <h6 style="    color: rgba(0,0,0,0.55); font-size: 12px; font-weight:400;"
+                                            class="pl-0">Consultation Charges</h6>
+                                        <h4 style="color: rgba(0,0,0,0.90); font-size: 26px;" class="mt-0 pl-0">AED 424
+                                            <small style="color: rgba(0,0,0,0.55); font-size:16px">/hr</small></h4>
+                                    </div>
+                                    <div class="col-6 d-block w-auto">
+                                        <div class="row py-4 my-2 pl-4">
+                                            <div class="ml-3">
+                                                <img src="./images/call_buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/mail-buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/whatsapp-buddy.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4>4</h4>
+                    </div>
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row mx-3">
+                                <div class="col-4">
+                                    <img src="https://dummyimage.com/104x104/ccc/fff" class="circle"
+                                        style="height: 90px; width: 90px; margin-top: 14px; border-radius: 50%;">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+                                    <div class="row pl-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1"></div>
+                                        <div class="col-9" style="color: #0E0E0E; font-size: 13px;" class="">413
+                                        </div>
+                                    </div>
+                                    <div class="row pl-md-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/Connections_icon.png" class="pr-1"
+                                                style="height: 15px; width:25px;">
+                                        </div>
+                                        <div class="col-9 pl-0" style="color: #0E0E0E; font-size: 13px;" class="">
+                                            <h6><b>321</b> Connections</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-md-2 pr-md-2">
+                                <div class="row ml-2">
+                                    <h5>Languages Known</h5>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> French</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+                                <div class="row ml-2">
+                                    <div class="col-6 pl-0">
+                                        <h6 style="    color: rgba(0,0,0,0.55); font-size: 12px; font-weight:400;"
+                                            class="pl-0">Consultation Charges</h6>
+                                        <h4 style="color: rgba(0,0,0,0.90); font-size: 26px;" class="mt-0 pl-0">AED 424
+                                            <small style="color: rgba(0,0,0,0.55); font-size:16px">/hr</small></h4>
+                                    </div>
+                                    <div class="col-6 d-block w-auto">
+                                        <div class="row py-4 my-2 pl-4">
+                                            <div class="ml-3">
+                                                <img src="./images/call_buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/mail-buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/whatsapp-buddy.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4>5</h4>
+                    </div>
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row mx-3">
+                                <div class="col-4">
+                                    <img src="https://dummyimage.com/104x104/ccc/fff" class="circle"
+                                        style="height: 90px; width: 90px; margin-top: 14px; border-radius: 50%;">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+                                    <div class="row pl-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1"></div>
+                                        <div class="col-9" style="color: #0E0E0E; font-size: 13px;" class="">413
+                                        </div>
+                                    </div>
+                                    <div class="row pl-md-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/Connections_icon.png" class="pr-1"
+                                                style="height: 15px; width:25px;">
+                                        </div>
+                                        <div class="col-9 pl-0" style="color: #0E0E0E; font-size: 13px;" class="">
+                                            <h6><b>321</b> Connections</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-md-2 pr-md-2">
+                                <div class="row ml-2">
+                                    <h5>Languages Known</h5>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> French</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+                                <div class="row ml-2">
+                                    <div class="col-6 pl-0">
+                                        <h6 style="    color: rgba(0,0,0,0.55); font-size: 12px; font-weight:400;"
+                                            class="pl-0">Consultation Charges</h6>
+                                        <h4 style="color: rgba(0,0,0,0.90); font-size: 26px;" class="mt-0 pl-0">AED 424
+                                            <small style="color: rgba(0,0,0,0.55); font-size:16px">/hr</small></h4>
+                                    </div>
+                                    <div class="col-6 d-block w-auto">
+                                        <div class="row py-4 my-2 pl-4">
+                                            <div class="ml-3">
+                                                <img src="./images/call_buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/mail-buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/whatsapp-buddy.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4>6</h4>
+                    </div>
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row mx-3">
+                                <div class="col-4">
+                                    <img src="https://dummyimage.com/104x104/ccc/fff" class="circle"
+                                        style="height: 90px; width: 90px; margin-top: 14px; border-radius: 50%;">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+                                    <div class="row pl-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1">
+                                            <img src="./images/ic_rating_filled.png" class="pr-1"></div>
+                                        <div class="col-9" style="color: #0E0E0E; font-size: 13px;" class="">413
+                                        </div>
+                                    </div>
+                                    <div class="row pl-md-2">
+                                        <div class="col-3 d-flex" style="height: 12px;">
+                                            <img src="./images/Connections_icon.png" class="pr-1"
+                                                style="height: 15px; width:25px;">
+                                        </div>
+                                        <div class="col-9 pl-0" style="color: #0E0E0E; font-size: 13px;" class="">
+                                            <h6><b>321</b> Connections</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-md-2 pr-md-2">
+                                <div class="row ml-2">
+                                    <h5>Languages Known</h5>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> French</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+                                <div class="row ml-2">
+                                    <div class="col-6 pl-0">
+                                        <h6 style="    color: rgba(0,0,0,0.55); font-size: 12px; font-weight:400;"
+                                            class="pl-0">Consultation Charges</h6>
+                                        <h4 style="color: rgba(0,0,0,0.90); font-size: 26px;" class="mt-0 pl-0">AED 424
+                                            <small style="color: rgba(0,0,0,0.55); font-size:16px">/hr</small></h4>
+                                    </div>
+                                    <div class="col-6 d-block w-auto">
+                                        <div class="row py-4 my-2 pl-4">
+                                            <div class="ml-3">
+                                                <img src="./images/call_buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/mail-buddy.png">
+                                            </div>
+                                            <div class="ml-3">
+                                                <img src="./images/whatsapp-buddy.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4>7</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------end of top buddies--------------->
+    <!-----------------------super agents------------------------->
+    <div class="container py-3 super-agent">
+        <div class="row pt-4">
+            <div class="col-md-12">
+                <h3 style="color: #0E0E0E; font-size: 32px;font-weight: bold;font-family:inherit;
+          letter-spacing: .5px;">Super agents</h3>
+            </div>
+            <div class="col-md-12 pl-3">
+                <h2 style="color: rgba(14,14,14,0.55);font-size: 16px;">Most popular agents</h2>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="owl-example" class="owl-carousel owl-theme">
+
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div style="position: relative;" class="h-100">
+                                        <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 105px; border-top-right-radius: 4px;
+                                        border-top-left-radius: 4px;">
+
+                                        <div class="star-block">
+                                            <div class="row h-25">
+                                                <div class="col-6 ">
+                                                    <div class="d-flex justify-content-center py-2 pl-4">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <div style="color: white; font-size: 13px;" class="pl-2">413
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="row py-2 pl-4">
+                                                        <img src="./images/mail_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/call_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/whatsapp_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row mt-3 ml-1">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row ml-1">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-2 pr-2 pt-0">
+                                <div class="row ml-2">
+                                    <p style="margin-bottom: 0;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> +1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+
+                                <div class="col-12">
+                                    <div class="row">
+                                        <p style="margin-bottom: 0;">Localities</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 ">
+                                    <div class="row d-flex">
+
+                                        <span class="light-blue"> English</span>
+                                        <span class="ml-2 light-blue"> Arabic</span>
+                                        <span class="ml-2 light-blue"> +1</span>
+
+                                    </div>
+                                </div>
+
+                                <div class="row ml-2 pt-3">
+                                    <p style="margin-bottom:0px;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row">
+                                        <span class="col-6 bdr-right p-0">
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+
+                                        </span>
+
+                                        <span class="col-6 p-0">
+
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+                                        </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4>8</h4>
+                    </div>
+
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div style="position: relative;" class="h-100">
+                                        <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 105px; border-top-right-radius: 4px;
+                                        border-top-left-radius: 4px;">
+
+                                        <div class="star-block">
+                                            <div class="row h-25">
+                                                <div class="col-6 ">
+                                                    <div class="d-flex justify-content-center py-2 pl-4">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <div style="color: white; font-size: 13px;" class="pl-2">413
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="row py-2 pl-4">
+                                                        <img src="./images/mail_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/call_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/whatsapp_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row mt-3 ml-1">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row ml-1">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-2 pr-2 pt-0">
+                                <div class="row ml-2">
+                                    <p style="margin-bottom: 0;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> +1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+
+                                <div class="col-12">
+                                    <div class="row">
+                                        <p style="margin-bottom: 0;">Localities</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 ">
+                                    <div class="row d-flex">
+
+                                        <span class="light-blue"> English</span>
+                                        <span class="ml-2 light-blue"> Arabic</span>
+                                        <span class="ml-2 light-blue"> +1</span>
+
+                                    </div>
+                                </div>
+
+                                <div class="row ml-2 pt-3">
+                                    <p style="margin-bottom:0px;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row">
+                                        <span class="col-6 bdr-right p-0">
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+
+                                        </span>
+
+                                        <span class="col-6 p-0">
+
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+                                        </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4>9</h4>
+                    </div>
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div style="position: relative;" class="h-100">
+                                        <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 105px; border-top-right-radius: 4px;
+                                        border-top-left-radius: 4px;">
+                                        <div class="star-block">
+                                            <div class="row h-25">
+                                                <div class="col-6 ">
+                                                    <div class="d-flex justify-content-center py-2 pl-4">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <div style="color: white; font-size: 13px;" class="pl-2">413
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="row py-2 pl-4">
+                                                        <img src="./images/mail_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/call_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/whatsapp_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row mt-3 ml-1">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row ml-1">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-2 pr-2 pt-0">
+                                <div class="row ml-2">
+                                    <p style="margin-bottom: 0;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> +1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+
+                                <div class="col-12">
+                                    <div class="row">
+                                        <p style="margin-bottom: 0;">Localities</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 ">
+                                    <div class="row d-flex">
+
+                                        <span class="light-blue"> English</span>
+                                        <span class="ml-2 light-blue"> Arabic</span>
+                                        <span class="ml-2 light-blue"> +1</span>
+
+                                    </div>
+                                </div>
+
+                                <div class="row ml-2 pt-3">
+                                    <p style="margin-bottom:0px;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row">
+                                        <span class="col-6 bdr-right p-0">
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+
+                                        </span>
+
+                                        <span class="col-6 p-0">
+
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+                                        </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4>10</h4>
+                    </div>
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div style="position: relative;" class="h-100">
+                                        <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 105px; border-top-right-radius: 4px;
+                                        border-top-left-radius: 4px;">
+
+                                        <div class="star-block">
+                                            <div class="row h-25">
+                                                <div class="col-6 ">
+                                                    <div class="d-flex justify-content-center py-2 pl-4">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <div style="color: white; font-size: 13px;" class="pl-2">413
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="row py-2 pl-4">
+                                                        <img src="./images/mail_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/call_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/whatsapp_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row mt-3 ml-1">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row ml-1">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-2 pr-2 pt-0">
+                                <div class="row ml-2">
+                                    <p style="margin-bottom: 0;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> +1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+
+                                <div class="col-12">
+                                    <div class="row">
+                                        <p style="margin-bottom: 0;">Localities</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 ">
+                                    <div class="row d-flex">
+
+                                        <span class="light-blue"> English</span>
+                                        <span class="ml-2 light-blue"> Arabic</span>
+                                        <span class="ml-2 light-blue"> +1</span>
+
+                                    </div>
+                                </div>
+
+                                <div class="row ml-2 pt-3">
+                                    <p style="margin-bottom:0px;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row">
+                                        <span class="col-6 bdr-right p-0">
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+
+                                        </span>
+
+                                        <span class="col-6 p-0">
+
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+                                        </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h4>11</h4>
-                        </div>
-                        <div class="item">
-                            <h4>12</h4>
+                    </div>
+
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div style="position: relative;" class="h-100">
+                                        <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 105px; border-top-right-radius: 4px;
+                                        border-top-left-radius: 4px;">
+
+                                        <div class="star-block">
+                                            <div class="row h-25">
+                                                <div class="col-6 ">
+                                                    <div class="d-flex justify-content-center py-2 pl-4">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <div style="color: white; font-size: 13px;" class="pl-2">413
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="row py-2 pl-4">
+                                                        <img src="./images/mail_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/call_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/whatsapp_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row mt-3 ml-1">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row ml-1">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-2 pr-2 pt-0">
+                                <div class="row ml-2">
+                                    <p style="margin-bottom: 0;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> +1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+
+                                <div class="col-12">
+                                    <div class="row">
+                                        <p style="margin-bottom: 0;">Localities</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 ">
+                                    <div class="row d-flex">
+
+                                        <span class="light-blue"> English</span>
+                                        <span class="ml-2 light-blue"> Arabic</span>
+                                        <span class="ml-2 light-blue"> +1</span>
+
+                                    </div>
+                                </div>
+
+                                <div class="row ml-2 pt-3">
+                                    <p style="margin-bottom:0px;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row">
+                                        <span class="col-6 bdr-right p-0">
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+
+                                        </span>
+
+                                        <span class="col-6 p-0">
+
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+                                        </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
 
                     </div>
-                    
 
+                    <div class="item bg-white buddies">
+                        <div class="card border-0 rounded"
+                            style="box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);border:0;">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div style="position: relative;" class="h-100">
+                                        <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 105px; border-top-right-radius: 4px;
+                                        border-top-left-radius: 4px;">
+
+                                        <div class="star-block">
+                                            <div class="row h-25">
+                                                <div class="col-6 ">
+                                                    <div class="d-flex justify-content-center py-2 pl-4">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <img src="./images/white_star.png" class="pr-1"
+                                                            style="height: 12px;">
+                                                        <div style="color: white; font-size: 13px;" class="pl-2">413
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="row py-2 pl-4">
+                                                        <img src="./images/mail_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/call_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                        <img src="./images/whatsapp_white_agent_ic.png"
+                                                            style="height: 12px; width: 12px; margin-left: 15px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row mt-3 ml-1">
+                                        <h4>Tyler Waters</h4>
+                                    </div>
+
+                                    <div class="row ml-1">
+                                        <h6>Australian · Male · 28 yrs</h6>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="card-body card-detail pl-2 pr-2 pt-0">
+                                <div class="row ml-2">
+                                    <p style="margin-bottom: 0;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row d-block">
+                                        <div class="d-flex">
+                                            <span> English</span>
+                                            <span class="ml-2"> Arabic</span>
+                                            <span class="ml-2"> +1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 1px solid #eee;">
+
+                                <div class="col-12">
+                                    <div class="row">
+                                        <p style="margin-bottom: 0;">Localities</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 ">
+                                    <div class="row d-flex">
+
+                                        <span class="light-blue"> English</span>
+                                        <span class="ml-2 light-blue"> Arabic</span>
+                                        <span class="ml-2 light-blue"> +1</span>
+
+                                    </div>
+                                </div>
+
+                                <div class="row ml-2 pt-3">
+                                    <p style="margin-bottom:0px;">Languages Known</p>
+                                </div>
+
+                                <div class="col-12 pt-0">
+                                    <div class="row">
+                                        <span class="col-6 bdr-right p-0">
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+
+                                        </span>
+
+                                        <span class="col-6 p-0">
+
+                                            <span style="color: #0E0E0E; font-size: 20px; line-height: 24px;"
+                                                class="p-0"><strong> 123</strong></span><br>sales
+                                        </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <!----------------------end of super Agents------------->
+    <!-------------places to visit-->
+    <div class="container">
+        <div class="row pt-4">
+            <div class="col-md-12">
+                <h3 style="color: #0E0E0E; font-size: 32px;font-weight: bold;font-family:inherit;
+      letter-spacing: .5px;">Places to visit</h3>
+            </div>
+            <div class="col-md-12 pl-3">
+                <h2 style="color: rgba(14,14,14,0.55);font-size: 16px;">Explore the most-see places</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pl-0 pt-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="float-left">
+                    <img src="./images/map-section.png" class="img-fluid d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of plaeces to visit -->
+
+    <!------------------------------------Blogs----------------------->
+    <div class="container py-5 blogs">
+        <div class="row pt-4">
+            <div class="col-md-12">
+                <h3 style="color: #0E0E0E; font-size: 32px;font-weight: bold;font-family:inherit;
+             letter-spacing: .5px;">Blogs</h3>
+            </div>
+            <div class="col-md-12 pl-3">
+                <h2 style="color: rgba(14,14,14,0.55);font-size: 16px;">Browse our latest blogs</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="owl-example2" class="owl-carousel owl-theme">
+
+                    <div class="item bg-white">
+                        <div class="card border-0 rounded">
+                            <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 153px; border-top-right-radius: 4px;
+                                 border-top-left-radius: 4px;">
+                            <div class="card-body card-detail pl-md-2 pr-md-2">
+
+                                <h4>Things to keep in mind when co living spaces for…</h4>
+                                <span>Posted 1 day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item bg-white">
+                        <div class="card border-0 rounded">
+                            <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 153px; border-top-right-radius: 4px;
+                            border-top-left-radius: 4px;">
+                            <div class="card-body card-detail pl-md-2 pr-md-2">
+
+                                <h4>Things to keep in mind when co living spaces for…</h4>
+                                <span>Posted 1 day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item bg-white">
+                        <div class="card border-0 rounded">
+                            <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 153px; border-top-right-radius: 4px;
+                            border-top-left-radius: 4px;">
+                            <div class="card-body card-detail pl-md-2 pr-md-2">
+
+                                <h4>Things to keep in mind when co living spaces for…</h4>
+                                <span>Posted 1 day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item bg-white">
+                        <div class="card border-0 rounded">
+                            <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 153px; border-top-right-radius: 4px;
+                            border-top-left-radius: 4px;">
+                            <div class="card-body card-detail pl-md-2 pr-md-2">
+
+                                <h4>Things to keep in mind when co living spaces for…</h4>
+                                <span>Posted 1 day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item bg-white">
+                        <div class="card border-0 rounded">
+                            <img src="https://dummyimage.com/370x205/ccc/fff" class="img-fluid" style="height: 153px; border-top-right-radius: 4px;
+                            border-top-left-radius: 4px;">
+                            <div class="card-body card-detail pl-md-2 pr-md-2">
+
+                                <h4>Things to keep in mind when co living spaces for…</h4>
+                                <span>Posted 1 day ago</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------end of blogs----------------->
+    <div class="container py-3 countries">
+        <div class="row pt-4">
+            <div class="col-md-12">
+                <h3 style="color: #0E0E0E; font-size: 32px;font-weight: bold;font-family:inherit;
+         letter-spacing: .5px;">we are here</h3>
+            </div>
+            <div class="col-md-12 pl-3">
+                <h2 style="color: rgba(14,14,14,0.55);font-size: 16px;">Countries we are live in</h2>
+            </div>
+
+            <!-- Gallery -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 hover-zoom ">
+                        <a href="">
+                            <img src="./images/UAE_Weah.png" class="img-fluid h-100 ">
+                        </a>
+                        <div class="name" style="padding-left: 104px;">UAE</div>
+                    </div>
+                    <div class="col-lg-4 mt-md-0 mt-2">
+                        <div class="row">
+                            <div class="col">
+                                <a href="">
+                                    <img src="./images/Kuwait_Weah.png" class="img-fluid h-100">
+                                </a>
+                                <div class="name" style="padding-left: 135px;">Kuwait</div>
+                            </div>
+                        </div>
+                        <div class="row  mt-md-0 mt-2 ">
+                            <div class="col">
+                                <a href="">
+                                    <img src="./images/Oman_weah.png" class="mt-2" class="img-fluid h-100">
+                                </a>
+                                <div class="name" style="padding-left: 153px;">Oman</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 pb-3 mt-md-0 mt-2">
+                        <div class="row  ">
+                            <div class="col">
+                                <a href="">
+                                    <img src="./images/KSA_Weah.png" class="img-fluid h-100">
+                                </a>
+                                <div class="w-100">
+                                    <div class="name" style="padding-left: 198px;">KSA</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ml-3">
+                            <div class="col-6 mt-2">
+                                <div class="row">
+                                    <a href="">
+                                        <img src="./images/Qatar_weah.png" class="img-fluid h-100">
+                                    </a>
+                                    <div class="name" style="padding-left: 75px;">Qatar</div>
+                                </div>
+                            </div>
+
+                            <div class="col-6 mt-2">
+                                <div class="row ml-1">
+                                    <a href="">
+                                        <img src="./images/Baharin_Weah.png" class="img-fluid h-100">
+                                    </a>
+                                    <div class="name" style="padding-left: 65px;">Bahrain</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  end-Gallery -->
+
+    <!-----------------reviews----------------->
+    <div class="container py-3">
+        <div class="row pt-4">
+            <div class="col-md-12">
+                <h3 style="color: #0E0E0E; font-size: 32px;font-weight: bold;font-family:inherit;
+                        letter-spacing: .5px;">Reviews</h3>
+            </div>
+            <div class="col-md-12 pl-3">
+                <h2 style="color: rgba(14,14,14,0.55);font-size: 16px;">What our customers say about us.</h2>
             </div>
         </div>
 
-</div>
+        <div class="row">
+            <div class="col">
+                <div id="owl-example-review" class="owl-carousel owl-theme">
+
+                    <div class="item ">
+                        <div class="card border-0 rounded  review">
+
+                            <div class="row mx-3 py-3">
+                                <div class="col-4">
+                                    <img src="https://dummyimage.com/104x104/ccc/fff" class="circle"
+                                        style="height: 100px; width: 100px; margin-top: 14px; border-radius: 50%;">
+                                </div>
+                                <div class="col-8">
+                                    <img src="./images/home-quote.png" class="coma">
+                                    <div class="row">
+                                        <div class="col pl-0">
+                                            <h4>Lucy Mendez</h4>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <span>Photographer</span>
+                                    </div>
+                                    <div class="row">
+                                        <h6> I am thankful to Gulf Road for their support and expertise in finding me an
+                                            apartment in
+                                            Dubai. For a first time buyer, they not only helped find a right house, they
+                                            also assisted me
+                                            with all legal and commercial concerns.</h6>
+                                    </div>
 
 
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="item ">
+                        <div class="card border-0 rounded  review">
+
+                            <div class="row mx-3 py-3">
+                                <div class="col-4">
+                                    <img src="https://dummyimage.com/104x104/ccc/fff" class="circle"
+                                        style="height: 100px; width: 100px; margin-top: 14px; border-radius: 50%;">
+                                </div>
+                                <div class="col-8">
+                                    <img src="./images/home-quote.png" class="coma">
+                                    <div class="row">
+                                        <div class="col pl-0">
+                                            <h4>Lucy Mendez</h4>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <span>Photographer</span>
+                                    </div>
+                                    <div class="row">
+                                        <h6> I am thankful to Gulf Road for their support and expertise in finding me an
+                                            apartment in
+                                            Dubai. For a first time buyer, they not only helped find a right house, they
+                                            also assisted me
+                                            with all legal and commercial concerns.</h6>
+                                    </div>
 
 
+                                </div>
+                            </div>
 
-        <!-- The slideshow -->
+                        </div>
+                    </div>
 
+                    <div class="item ">
+                        <div class="card border-0 rounded  review">
+
+                            <div class="row mx-3 py-3">
+                                <div class="col-4">
+                                    <img src="https://dummyimage.com/104x104/ccc/fff" class="circle"
+                                        style="height: 100px; width: 100px; margin-top: 14px; border-radius: 50%;">
+                                </div>
+                                <div class="col-8">
+                                    <img src="./images/home-quote.png" class="coma">
+                                    <div class="row">
+                                        <div class="col pl-0">
+                                            <h4>Lucy Mendez</h4>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <span>Photographer</span>
+                                    </div>
+                                    <div class="row">
+                                        <h6> I am thankful to Gulf Road for their support and expertise in finding me an
+                                            apartment in
+                                            Dubai. For a first time buyer, they not only helped find a right house, they
+                                            also assisted me
+                                            with all legal and commercial concerns.</h6>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -1310,7 +2552,10 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
 
+
+
         <script>
+
 
 
             $(document).ready(function () {
@@ -1320,18 +2565,18 @@
                     items: 3,
                     margin: 30,
                     loop: true,
-                    nav: true,
+
                     navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
                     dots: false,
 
                     responsive: {
                         0: {
                             items: 1,
-                            nav: true
+                            dots: true
                         },
                         600: {
                             items: 2,
-                            nav: false
+                            nav: true
                         },
                         1000: {
                             items: 3,
@@ -1342,6 +2587,90 @@
                 });
 
             });
+
+
+
+
+
+            jQuery("#owl-example").owlCarousel({
+
+                items: 4,
+                margin: 30,
+                loop: true,
+
+                navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+                dots: false,
+
+                responsive: {
+                    0: {
+                        items: 1,
+                        dots: true
+                    },
+                    600: {
+                        items: 2,
+                        nav: true
+                    },
+                    1000: {
+                        items: 4,
+                        nav: true,
+
+                    }
+                }
+            });
+
+
+            jQuery("#owl-example2").owlCarousel({
+
+                items: 4,
+                margin: 30,
+                loop: true,
+
+                navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+                dots: false,
+
+                responsive: {
+                    0: {
+                        items: 1,
+                        dots: true
+                    },
+                    600: {
+                        items: 2,
+                        nav: true
+                    },
+                    1000: {
+                        items: 4,
+                        nav: true,
+
+                    }
+                }
+            });
+
+            jQuery("#owl-example-review").owlCarousel({
+
+                items: 2,
+                margin: 30,
+                loop: true,
+
+                navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+                dots: false,
+
+                responsive: {
+                    0: {
+                        items: 1,
+                        dots: true
+                    },
+                    600: {
+                        items: 2,
+                        nav: true
+                    },
+                    1000: {
+                        items: 2,
+                        nav: true,
+
+                    }
+                }
+            });
+
 
 
             document.addEventListener("DOMContentLoaded", function () {
@@ -1376,22 +2705,21 @@
             //to activate the button////////////////////////////////////////////////////
             // Add active class to the current button (highlight it)
             var header = document.getElementById("myDIV");
-            var btns = header.getElementByClassName("search-property");
+            var btns = header.getElementsByClassName("search-property");
             for (var i = 0; i < btns.length; i++) {
                 btns[i].addEventListener("click", function () {
-                    var current = document.getElementByClassName("active");
+                    var current = document.getElementsByClassName("active");
                     current[0].className = current[0].className.replace(" active", "");
                     this.className += " active";
                 });
             }
 
-            // Instantiate the Bootstrap carousel
-            $(document).ready(function () {
-                $('.owl-carousel').owlCarousel({
+        // Instantiate the Bootstrap carousel
 
-                });
 
-            })
+
+
+
         </script>
 
 </body>
