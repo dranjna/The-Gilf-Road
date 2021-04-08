@@ -77,7 +77,7 @@
     border: 0;
     background: none;
     padding-right: 10px;
-    padding-right: 10px;
+    padding-left: 10px;
     padding-top: 5px;
     padding-top: 5px;
     margin-right: 5px;
@@ -97,10 +97,10 @@
   
   .navbar-search a {
     border-top-right-radius: 4px;
-    float: left;
+ display: inline-flex;
     background-color: #555;
     padding-right: 10px;
-    padding-right: 10px;
+    padding-left: 10px;
     padding-top: 5px;
     padding-top: 5px;
     margin-right: 5px;margin-top: 5px;
@@ -435,7 +435,100 @@
     width: auto!important;
 
 }
+.footer{
+    background: linear-gradient(180deg, #1D1D1D 0%, #0A0A0A 100%);
+    background-image:url(./images/footer.png);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+.footer p{
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.7;
+}
+.footer .list-group-item{
+background-color: transparent !important;
+border: none !important;
+}
 
+.footer .list-group-item a{
+    color: white;
+    opacity: 0.7;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footer .list-group-item a:hover{
+    color: white;
+    opacity: 1.5;
+}
+.footer .btn{
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 8px;
+    color: #0E0E0E;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer h4{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+   
+}
+.footer input{
+    border-radius: 4px;
+    background-color: #212020;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    transition: all .3s ease-in-out 0s;
+}
+.submit-btn{
+    background: #E4002B;
+    border: 1px solid #e4002b;
+    padding: 6px 25px;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    transition: all .3s ease-in-out 0s;
 
+}
+.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+   
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+  }
+  .owl-dots button.owl-dot.active {
+    background-color: black !important;
+    border: 1px solid black;
+    
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: -6px 2px !important;
+    background: #D6D6D6;
+    display: block;
+   
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+}
+  .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #eee !important;
+}
 
 

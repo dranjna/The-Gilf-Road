@@ -1,0 +1,20 @@
+1. for clone 
+git clone pathOfRepo
+########## How to push code ###################
+git status //for check the status of changes...
+
+git add . // .(Dot for all files) otherwise give file path
+git commit -m "message of commit"
+git branch //to check the brach name.
+git push orign branchName
+
+Now merge code into master or main branch.
+
+##################How to take pull###########
+git pull origin branchname [main or maser or tell by other person]
+
+################### remove file if dont want to push###############3
+git checkout filepath
+
+#####################View changes #############################
+git diff fileOne FileTwo
