@@ -9,7 +9,7 @@
 .banner{
     background-image: url(./images/hero-image.png);
     background-size: cover;
-    height: 900px;
+  
 }
 .homeloan-btn{
     color: white;
@@ -125,6 +125,7 @@
     color: rgba(0,0,0,0.77);
     border: 0;
     outline: 0;
+   
 }
   
   
@@ -166,7 +167,7 @@
     .search1{
        
         width: 421px;
-        margin-left: 10px;
+       
     }
    
     .search-icon{
@@ -178,7 +179,7 @@
     .banner{
         background-image: url(./images/hero-image.png);
         background-size: cover;
-        height: 900px;
+       
     }
   }
   .carousel-inner .active{
